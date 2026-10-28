@@ -167,3 +167,9 @@ arch/*/boot/dts/vendor
 
 # Documentation toolchain
 sphinx_*/
+
+# ReSukiSU (KernelSU) and SUSFS, separate repo projects checked out here for
+# the drivers/kernelsu, fs/susfs.c and include/linux/susfs*.h symlinks (see
+# .repo/local_manifests/salami.xml)
+/KernelSU/
+/susfs4ksu/
